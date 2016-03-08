@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Angular Js</title>
+    <script language="JavaScript" src="app/components/angular.js" ></script>
+    <script language="JavaScript" src="app/app.js" ></script>
+</head>
+<body>
+    <form action="#" ng-controller="MessageController">
+        <label>Username:</label><input type="text" ng-model="username" >{{username}}
+        <br/>
+        <label>Password:</label><input type="password" ng-model="password" >{{password}}
+        <br/>
+        <button ng-click="showMessage()" type="button" >Login</button>
+    </form>
+</body>
+</html>
